@@ -1,0 +1,31 @@
+.vert{
+    color: green;
+
+}
+
+.rouge{
+    color: red;
+}
+.scroll{
+    -webkit-appearance: slider-vertical;
+}
+
+body 
+{	background-color:#E0E0E0;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin: 200px;
+	text-align:center;
+	
+}
+h1{
+    color: rgba(0, 0, 0, 0.336);
+    font-weight: 400;
+    
+}
+
+p{
+   font-size: large;
+}
+
+
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <meta charset="utf-8" />
+        <link href="style.css" rel="stylesheet">
+        
+  </head>
+  <body>
+    <h1>Ecrire la Trame</h1>
+
+    
+      <input type="text" id="edit" name="texte" value="" oninput="TrameValide()"/>
+      <input type="button" value="Envoyer" onclick="AES_encryptage()";/>
+      <br/>
+      <span id="longueur" class="vert">Longueur</span> <br/><span id="Hexa" class="vert">Hexa</span>
+      <br/>
+      <input type="range" min="0" max="255"  value="0"  id="scrollbar1" class="scroll">
+      <input type="range" min="0" max="255"  value="0"  id="scrollbar2" class="scroll"> 
+      <input type="range" min="0" max="255"  value="0"  id="scrollbar3" class="scroll"> 
+      <input type="range" min="0" max="255"  value="0"  id="scrollbar4" class="scroll"> 
+      <input type="range" min="0" max="255"  value="0"  id="scrollbar5" class="scroll"> 
+      <input type="range" min="0" max="255"  value="0"  id="scrollbar6" class="scroll">
+
+      
+
+      <p>Bouger les curseurs pour controle le post DMX</p>
+
+      <input type="button" id=""fullON"  value="Full-ON" onclick="fullON();" />
+      <input type="button" id=""fullOFF" value="Full-OFF" onclick="fullOFF();" />
+      <input type="button" id=""aleatoire" value="aleatoire" onclick="aleatoire();" />
+
+      <p>Les boutons ci-dessus servent a soit mettre les curseurs au maximum sois au minimum sois d'envoyer des valeurs aleatoires </p>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js" integrity="sha512-a+SUDuwNzXDvz4XrIcXHuCf089/iJAoN4lmrXJg18XnduKK6YlDHNRalv4yd1N40OKI80tFidF+rqTFKGPoWFQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+   
+  <script type="text/javascript" src="main.js"></script> 
+  
+  </body>
+</html>
